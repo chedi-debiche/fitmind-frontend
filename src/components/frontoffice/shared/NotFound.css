@@ -1,0 +1,146 @@
+
+/* @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet"); */
+
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700");
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+.body{
+  overflow:hidden;
+  background-color: #f4f6ff;
+}
+
+.containernotfound{
+  width:100vw;
+  height:100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  position: relative;
+  left:6vmin;
+  text-align: center;
+}
+
+.cog-wheel1, .cog-wheel2{
+  transform:scale(0.7);
+}
+
+.cog1notfound, .cog2notfound{
+  width:40vmin;
+  height:40vmin;
+  border-radius:50%;
+  border:6vmin solid #f3c623;
+  position: relative;
+}
+
+
+.cog2notfound{
+  border:6vmin solid #4f8a8b;
+}
+
+.topn, .downn, .leftn, .rightn, .left-topn, .left-downn, .right-topn, .right-downn{
+  width:10vmin;
+  height:10vmin;
+  background-color: #f3c623;
+  position: absolute;
+}
+
+.cog2notfound .topn,.cog2notfound  .downn,.cog2notfound  .leftn,.cog2notfound  .rightn,.cog2notfound  .left-topn,.cog2notfound  .left-downn,.cog2notfound  .right-top,.cog2  .right-down{
+  background-color: #4f8a8b;
+}
+
+.topn{
+  top:-14vmin;
+  left:9vmin;
+}
+
+.downn{
+  bottom:-14vmin;
+  left:9vmin;
+}
+
+.leftn{
+  left:-14vmin;
+  top:9vmin;
+}
+
+.rightn{
+  right:-14vmin;
+  top:9vmin;
+}
+
+.left-topn{
+  transform:rotateZ(-45deg);
+  left:-8vmin;
+  top:-8vmin;
+}
+
+.left-downn{
+  transform:rotateZ(45deg);
+  left:-8vmin;
+  top:25vmin;
+}
+
+.right-topn{
+  transform:rotateZ(45deg);
+  right:-8vmin;
+  top:-8vmin;
+}
+
+.right-downn{
+  transform:rotateZ(-45deg);
+  right:-8vmin;
+  top:25vmin;
+}
+
+.cog2notfound{
+  position: relative;
+  left:-10.2vmin;
+  bottom:10vmin;
+}
+
+h1{
+  color:#142833;
+}
+
+.first-four{
+  position: relative;
+  left:6vmin;
+  font-size:40vmin;
+}
+
+.second-four{
+  position: relative;
+  right:18vmin;
+  z-index: -1;
+  font-size:40vmin;
+}
+
+.wrong-para{
+  font-family: "Montserrat", sans-serif;
+  position: absolute;
+  bottom:15vmin;
+  padding:3vmin 12vmin 3vmin 3vmin;
+  font-weight:600;
+  color:#092532;
+}
+
+.go-home-button {
+    background-color: #4f8a8b;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .go-home-button:hover {
+    background-color: #142833;
+  }

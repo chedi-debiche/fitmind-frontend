@@ -1,0 +1,57 @@
+.dFlex,ul, .main_content, .main_content .card, .main_content .card .card_header, .btn, .social,  .social .fa {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .App {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+  }
+  .card-container {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .chart-card {
+
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: calc(33.33% - 20px);
+    min-height: 400px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+
+    overflow: hidden;
+  }
+  .chart-card h3 {
+    margin-top: 0;
+  }
+
+  .chart-card .recharts-wrapper {
+    margin: 0 auto;
+  }
+  .h{
+    display: flex;
+justify-content: center;
+margin: 0 auto
+  }
+
+
+  .dashboard-main {
+    background-color: black;
+  }

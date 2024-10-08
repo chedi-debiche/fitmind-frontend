@@ -1,0 +1,88 @@
+.error_msg,
+.success_msg {
+	width: 370px;
+	padding: 15px;
+	margin: 5px 0;
+	font-size: 14px;
+	background-color: #f34646;
+	color: white;
+	border-radius: 5px;
+	text-align: center;
+}
+
+.success_msg {
+	background-color: #5cdd5c;
+}
+
+
+
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  background-color: #f9f9f9;
+}
+
+th,
+td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #880808;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tbody tr:hover {
+  background-color: #ddd;
+}
+
+td:last-child {
+  text-align: center;
+}
+
+  .transparent {
+    background-color: transparent;
+    
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+
+  .table td:last-child button {
+    font-size: 14px;
+  }
+  
+  .table td:last-child .update {
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    margin-right: 20px;
+  }
+  
+  .table td:last-child .delete {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 15px;
+  }
+  
+  
+
+  .container {
+    max-width: 1000px; /* adjust this value as needed */
+    margin: auto;
+  }
+  
+  
+  

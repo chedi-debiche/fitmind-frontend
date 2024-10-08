@@ -1,0 +1,41 @@
+.chart-container {
+    position: relative;
+    margin: auto;
+    height: 100px;
+    width: 100px;
+  }
+  
+  .canvas-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    height: 80%;
+    width: 80%;
+  }
+  
+  .legend-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+  
+  .legend {
+    display: flex;
+    align-items: center;
+    margin-right: 1rem;
+  }
+  
+  .legend__color {
+    height: 1rem;
+    width: 1rem;
+    margin-right: 0.5rem;
+  }
+  
+  .legend__label {
+    font-size: 0.8rem;
+    white-space: nowrap;
+  }
+  

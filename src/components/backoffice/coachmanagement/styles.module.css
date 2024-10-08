@@ -1,0 +1,72 @@
+table {
+  border-collapse: collapse;
+  width: 90%;
+  background-color: #f9f9f9;
+  text-align: right;
+
+}
+
+th, td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #368def;
+  color: white;
+}
+
+.transparent {
+  background-color: transparent;
+  
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.update {
+  background-color: green;
+  color: white;
+  border: none;
+  padding: 5px;
+  border-radius: 15px;
+  margin-right: 20px;
+  display: inline-block;
+}
+
+.delete {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 5px;
+  border-radius: 15px;
+  display: inline-block;
+}
+
+
+.container {
+  max-width: 1000px; /* adjust this value as needed */
+  margin: auto;
+}
+
+
+.statistics {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.bar {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  width: 10rem;
+  margin: 0.5rem;
+  background-color: #ccc;
+  color: #333;
+  font-size: 0.8rem;
+  text-align: center;
+}
