@@ -1,70 +1,60 @@
-# Getting Started with Create React App
+FITMIND – Plateforme de Coaching Sportif
+Projet académique collaboratif (6 développeurs) – MERN stack
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Présentation
+FITMIND est une application web complète destinée à la gestion de clubs de sport et à l’accompagnement des utilisateurs dans leurs objectifs sportifs. Développé en équipe de 6 étudiants dans le cadre d’un projet académique, ce site réunit des fonctionnalités avancées autour du coaching, du suivi de performances, de la gestion d’infrastructures et de la communauté sportive.
 
-## Available Scripts
+L’application a été conçue avec la stack MERN : MongoDB pour la base de données, Express.js et Node.js pour le back-end, React.js pour le front-end. Cette architecture permet une expérience fluide et réactive.
 
-In the project directory, you can run:
+Fonctionnalités principales
+Gestion multi-profils : inscription, authentification et interfaces personnalisées pour utilisateurs, coachs et managers de salle.
 
-### `npm start`
+Tableau de bord personnalisé : accès rapide aux programmes, planning, progressions, produits et activités.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Gestion des coachs et des salles : consultation et recherche de coachs, gestion des salles de sport partenaires.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Publication de contenu : création de blogs, articles, partage de conseils et d’événements sportifs.
 
-### `npm test`
+Produits et outils intégrés : catalogue de produits, calculateur d’IMC, modules interactifs santé/bien‑être.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Réclamations & support : système centralisé de dépôt et suivi des demandes et problèmes techniques.
 
-### `npm run build`
+Administration avancée : pour les managers (gestion des utilisateurs, validations, statistiques, modération).
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Objectifs pédagogiques et techniques
+Ce projet vise à :
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Maîtriser l’intégration complète d’un projet full-stack MERN : modélisation, API REST, gestion d’état côté client, sécurisation, déploiement ;
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Renforcer le travail en équipe (Git, gestion des branches, merge, conflits, revue de code, stand-ups réguliers) ;
 
-### `npm run eject`
+Apprendre à concevoir une architecture modulaire, scalable et maintenable ;
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Livrer un produit valorisant pour le CV, la soutenance et l’apprentissage professionnel.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Prérequis pour lancer le projet
+Node.js et npm installés
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+MongoDB (local ou Cloud)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Cloner le dépôt puis depuis les dossiers /backend et /frontend :
 
-## Learn More
+bash
+npm install
+npm start
+Équipe projet
+6 étudiants développeurs (rôles : front-end, back-end, intégration, devops, gestion de projet)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Travail réparti via Git/GitHub, méthodologie Agile
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Conclusion
+FITMIND illustre l’aboutissement d’un projet d’équipe et la maîtrise des meilleures pratiques du développement web moderne avec la MERN stack. L'application est facilement extensible et conçue pour de futurs cas d'utilisation dans le domaine du sport et du bien-être.
 
-### Code Splitting
+<img width="1813" height="922" alt="Capture d’écran 2025-11-20 142340" src="https://github.com/user-attachments/assets/a50b8aff-c1b5-4419-ad8f-5c1f0ba3a06f" />
+<img width="1860" height="918" alt="Capture d’écran 2025-11-20 142358" src="https://github.com/user-attachments/assets/a247f5b6-3bbc-4994-8510-28b9fc723c48" />
+<img width="1857" height="967" alt="Capture d’écran 2025-11-20 141257" src="https://github.com/user-attachments/assets/a69580e8-655d-426c-a040-eb04eac4f8ff" />
+<img width="1852" height="892" alt="Capture d’écran 2025-11-20 141326" src="https://github.com/user-attachments/assets/7d013cba-efa1-439b-8b96-b6e8b3f111ae" />
+<img width="1847" height="921" alt="Capture d’écran 2025-11-20 142204" src="https://github.com/user-attachments/assets/12929f5c-82a7-4b6d-8eb5-18112f1d3a4f" />
+<img width="1862" height="923" alt="Capture d’écran 2025-11-20 142239" src="https://github.com/user-attachments/assets/045f3717-6ffa-496c-99c0-b867527e455f" />
+<img width="1856" height="926" alt="Capture d’écran 2025-11-20 142306" src="https://github.com/user-attachments/assets/120844ce-7133-4d8c-b975-e9016c694f88" />
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
